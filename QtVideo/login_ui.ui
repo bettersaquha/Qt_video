@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>929</width>
+    <height>519</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>931</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>40</y>
+     <width>371</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    font-family: &quot;Arial&quot;;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;</string>
+   </property>
+   <property name="text">
+    <string>穷游世界——您身边的安全管家</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="login_commit">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>330</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    font-family: &quot;Arial&quot;;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;  /* 绿色背景 */
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;</string>
+   </property>
+   <property name="text">
+    <string>确认登录</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>200</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    font-family: &quot;Arial&quot;;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;  /* 绿色背景 */
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+</string>
+   </property>
+   <property name="text">
+    <string>账号：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>140</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    font-family: &quot;Arial&quot;;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;  /* 绿色背景 */
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+</string>
+   </property>
+   <property name="text">
+    <string>请您登录账号：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>280</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    font-family: &quot;Arial&quot;;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;  /* 绿色背景 */
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+</string>
+   </property>
+   <property name="text">
+    <string>密码：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="cin_account">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>200</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    font-family: &quot;Arial&quot;;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;  /* 绿色背景 */
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="cin_password">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>280</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    font-family: &quot;Arial&quot;;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;  /* 绿色背景 */
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>400</y>
+     <width>281</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	
+    color: white;
+font: 63 italic 12pt &quot;Cascadia Code SemiBold&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&gt;--必须是11位数字--&lt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>430</y>
+     <width>331</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	
+    color: white;
+font: 63 italic 12pt &quot;Cascadia Code SemiBold&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&gt;--必须是数字和字母组合--&lt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <slots>
+  <slot>maingoin()</slot>
+ </slots>
+</ui>

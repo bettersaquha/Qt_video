@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>929</width>
+    <height>519</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>931</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">            font-family: &quot;Arial&quot;;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            background-color: green;  /* 绿色背景 */
+            border: 2px solid white;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+    		background-image: url(&quot;D:/大三下/企业实训/第一周_图像识别api调用/project1/data/背景0.JPG&quot;);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;  /* 调整背景图片的大小，使其覆盖标签 */
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>60</y>
+     <width>371</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    font-family: &quot;Arial&quot;;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;</string>
+   </property>
+   <property name="text">
+    <string>穷游世界——您身边的安全管家</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>380</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    font-family: &quot;Arial&quot;;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;  /* 绿色背景 */
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;</string>
+   </property>
+   <property name="text">
+    <string>迷路-地标识别</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>380</y>
+     <width>161</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    font-family: &quot;Arial&quot;;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;  /* 绿色背景 */
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;</string>
+   </property>
+   <property name="text">
+    <string>危险-动物识别</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>380</y>
+     <width>161</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">    font-family: &quot;Arial&quot;;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;  /* 绿色背景 */
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;</string>
+   </property>
+   <property name="text">
+    <string>有毒-植物识别</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>landgoin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>215</x>
+     <y>410</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>464</x>
+     <y>259</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>animalgoin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>470</x>
+     <y>410</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>464</x>
+     <y>259</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>plantgoin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>730</x>
+     <y>410</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>464</x>
+     <y>259</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>landgoin()</slot>
+  <slot>animalgoin()</slot>
+  <slot>plantgoin()</slot>
+ </slots>
+</ui>

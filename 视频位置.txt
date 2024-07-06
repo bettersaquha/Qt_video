@@ -1,0 +1,9 @@
+视频路径是：
+'data/地标视频.mp4'
+'data/动物视频.mp4'
+'data/植物视频.mp4'
+
+requirements.txt 里头放了安装包和版本
+
+项目设计文档：
+项目概述文档.doc
